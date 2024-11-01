@@ -6,13 +6,13 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 50px;
     background: #1F2937;
 }
 .right-links {
     display: flex;
     flex-direction:row;
-    gap: 25px;
+    gap: 50px;
 }
 
 .header {
