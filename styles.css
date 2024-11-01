@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
 }
 .container {
     display: flex;
@@ -87,13 +88,18 @@ body {
     width: 150px;
     border: 3px solid #3882F6;
     border-radius: 10px;
+    flex: 1 1 100px;
+
 }
 
 .middle-content {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     flex-direction: row;
+    max-width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .quote {
@@ -132,16 +138,39 @@ body {
 }
 
 .bottom {
+    width: 100%;
+    background: #F9FAF8;
+    color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    padding: 50px 0;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width:60%;
     background: #3882F6;
     color: #F9FAF8;
-    padding: 50px;
-    margin-left: 400px;
-    margin-right: 400px;
+    padding: 30px;
     border-radius: 10px;
-    font-weight: 700;
-    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 100px;
 }
