@@ -17,11 +17,13 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 300px;
     background: #1F2937;
     color: #F9FAF8;
     margin-top: 0;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .top {
