@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto')
-
-ul {
-    list-style: none;
-}
-
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Roboto';
     margin: 0;
 }
-.left-links {
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: #1F2937;
+}
+.right-links {
     display: flex;
     flex-direction:row;
-    gap: 16px;
+    gap: 25px;
 }
 
 .header {
@@ -23,7 +22,6 @@ body {
     background: #1F2937;
     color: #F9FAF8;
     margin-top: 0;
-    
 }
 
 .top {
