@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    margin: 0;
 }
 .left-links {
     display: flex;
@@ -21,6 +22,7 @@ body {
     gap: 300px;
     background: #1F2937;
     color: #F9FAF8;
+    margin-top: 0;
     
 }
 
