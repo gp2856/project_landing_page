@@ -130,3 +130,18 @@ body {
     bottom: 10px;
     right: 10px;
 }
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
